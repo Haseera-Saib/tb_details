@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-data=pd.read_csv('/workspaces/tb_details/mentornow/TB_Burden_Country.csv')
+data=pd.read_csv('TB_Burden_Country.csv')
 #with st.expander('show more'):
 #    st.write(data)
 
